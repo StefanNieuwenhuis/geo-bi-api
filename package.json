@@ -1,0 +1,15 @@
+{
+    "name": "geo-bi-api",
+    "description": "Geo bi api for quering ArcGis Server",
+    "repository": {
+        "url": "https://github.com/StefanNieuwenhuis/geo-bi-api.git"
+    },
+    "version": "1.0.0",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "latest",
+        "express": "latest",
+        "body-parser": "latest"
+
+    }
+}
