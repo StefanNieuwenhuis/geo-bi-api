@@ -45,6 +45,7 @@ router.get('/towns/geo/:point', (req, res) => {
             f: 'pjson',
             where: '1=1',
             geometry: req.params.point,
+			geometryType: 'esriGeometryPoint',
             outFields: 'objectid, gm_code, gm_naam, aant_inw, oad, bev_dichth, aantal_hh, p_elek_tot, p_gas_tot',
             orderByFields: 'gm_naam',
             returnGeometry: false
